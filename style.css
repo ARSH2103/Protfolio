@@ -1,0 +1,167 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    transition: all 0.4 ease-in-out;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    padding: 0 10%;
+    background-color: #070d1b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    border-radius: 1px solid rgb(187,147,147);
+    transition: all 0.3s ease-in-out;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header ul li a{
+    text-transform: uppercase;
+    color: #fff;
+    transition: all 0.33s ease-in-out;
+}
+
+header ul li a:hover{
+    color: #fec544;
+
+}
+
+#hero{
+    width: 100%;
+    min-height: 750px;
+    background-color: #070d1b;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    padding: 0 10%;
+    overflow: hidden;
+
+}
+
+#hero:before{
+    content: "";
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url("");
+}
+
+#hero h3{
+    font-size: 2rem;
+    color: aqua;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#hero h1{
+    font-size: 7rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#hero{
+    font-size: 2.2rem;
+    color: #a9adb8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#hero button{
+    padding: 13px 45px;
+    border-radius: 30px;
+    background-color: greenyellow;
+    margin-top: 2rem;
+    border: 0;
+
+}
+#hero button a{
+    color: #333;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#hero .image{
+    height:95%;
+    width: 50%;
+    position: absolute;
+    right: -10%;
+    bottom: 0;
+
+}
+
+#hero img{
+    height: 100%;
+    width: 100%;
+}
+
+#hero .icons{
+    position: absolute;
+    bottom: 10%;
+    right: 30%;
+    border-radius: 50%;
+    background-color: #101624;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80px;
+    width: 600px;
+    padding: 0 20px;
+    transition: all 0.6s ease;
+
+}
+
+#hero .icons .icon{
+    font-size: 20px;
+    color: #a9adb8;
+    margin: 0 10px;
+    border: 1px solid #646060;
+    border-radius: 28px;
+    height: 50px;
+    width: 50px;
+    padding: 0 14px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: #070d1b;
+    transition: all 0.6s ease;
+
+}
+
+#hero .icons .icon:hover{
+    width: fit-content;
+    padding-right: 14px;
+    margin-right: 0;
+}
+
+#hero .icons.icon i{
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#hero .icons .icon span{
+    display: inline-block;
+    color:#fff;
+}
+
